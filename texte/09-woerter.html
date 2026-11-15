@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"><script id="soda-sync" src="/SODA-LERNPORTAL/sync.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zwischen den Zeilen 9 – Kummerspeck und Schnapsidee</title>
 <style>
@@ -253,7 +253,7 @@ $$('.body .gap').forEach(function(g){var n=g.dataset.g,t1=true,opts=t1?D.t1[n].o
   bt.addEventListener('click',function(e){e.stopPropagation();openGap(n);});});
 function used(){var u={};Object.keys(gaps).forEach(function(k){var g=gaps[k];if(!g.t1&&g.v!==null)u[g.v]=k;});return u;}
 function updBank(){var u=used();$$('.bankbox li').forEach(function(li,i){li.classList.toggle('used',u[i]!==undefined);});}
-function setGap(n,v){var g=gaps[n];g.v=v;g.el.classList.remove('ok','no');g.el.classList.toggle('has',v!==null);if(v!==null)g.el.classList.add(v===g.ans?'ok':'no');$('.gw',g.el).textContent=v===null?'\u00a0':g.opts[v];updBank();}
+function setGap(n,v){var g=gaps[n];g.v=v;g.el.classList.remove('ok','no');g.el.classList.toggle('has',v!==null);if(v!==null)g.el.classList.add(v===g.ans?'ok':'no');$('.gw',g.el).textContent=v===null?'\u00a0':g.opts[v];updBank();zsave();}
 function openGap(n){var g=gaps[n];if(popFor===g.el&&!pop.hidden){closePop();return;}closePop();var u=g.t1?{}:used();
   pop.className='pop';
   pop.innerHTML='<p class="ph">빈칸 '+n+'</p><div class="po'+(g.t1?'':' grid')+'" lang="de">'+g.opts.map(function(w,i){
@@ -266,7 +266,11 @@ $('#loes').innerHTML=Object.keys(gaps).map(function(n){var g=gaps[n];return '<li
 var rf=$('#rf');
 D.rf.forEach(function(it,i){var li=document.createElement('li');
   li.innerHTML='<p lang="de">'+it.s+'<span class="rfp">richtig / falsch</span></p><div class="rfb"><button type="button" data-v="1">richtig</button><button type="button" data-v="0">falsch</button></div><p class="ex">정답 '+(it.a?'richtig':'falsch')+'. 근거: <span lang="de">'+it.e+'</span></p>';
-  rf.appendChild(li);$$('button',li).forEach(function(x){x.addEventListener('click',function(){li.classList.remove('ok','no');if(li.dataset.v===x.dataset.v){delete li.dataset.v;x.classList.remove('sel');return;}$$('button',li).forEach(function(y){y.classList.toggle('sel',y===x);});li.dataset.v=x.dataset.v;li.classList.add((x.dataset.v==='1')===it.a?'ok':'no');});});});
+  rf.appendChild(li);$$('button',li).forEach(function(x){x.addEventListener('click',function(){li.classList.remove('ok','no');if(li.dataset.v===x.dataset.v){delete li.dataset.v;x.classList.remove('sel');zsave();return;}$$('button',li).forEach(function(y){y.classList.toggle('sel',y===x);});li.dataset.v=x.dataset.v;li.classList.add((x.dataset.v==='1')===it.a?'ok':'no');zsave();});});});
+/* 고른 답(빈칸·richtig/falsch)을 이 브라우저에 저장하고 다시 열면 되살립니다(localStorage 'zdz-ans:텍스트 이름'). 학습 포탈에 로그인한 학생은 학습 저장(SODA-LERNPORTAL/sync.js)이 서버에 올려 다른 기기에서도 이어집니다 */
+var ZK='zdz-ans:'+location.pathname.replace(/^.*\//,'').replace(/\.html$/,''),zr=false;
+function zsave(){if(zr)return;var o={g:{},r:{}},n=0;Object.keys(gaps).forEach(function(k){if(gaps[k].v!==null){o.g[k]=gaps[k].v;n++;}});$$('#rf>li').forEach(function(li,i){if(li.dataset.v!=null){o.r[i]=li.dataset.v;n++;}});try{if(n)localStorage.setItem(ZK,JSON.stringify(o));else localStorage.removeItem(ZK);}catch(e){}}
+(function(){var o=null;try{o=JSON.parse(localStorage.getItem(ZK)||'null');}catch(e){}if(!o||typeof o!=='object')return;zr=true;try{Object.keys(o.g||{}).forEach(function(k){var g=gaps[k],v=o.g[k];if(g&&typeof v==='number'&&v>=0&&v<g.opts.length)setGap(k,v);});var lis=$$('#rf>li');Object.keys(o.r||{}).forEach(function(i){var li=lis[+i],v=String(o.r[i]),b=li&&li.querySelector('button[data-v="'+(v==='1'?'1':'0')+'"]');if(b&&li.dataset.v!==v)b.click();});}catch(e){}zr=false;})();
 var tg=$('#tg');function setMarks(on){b.classList.toggle('marks',on);tg.setAttribute('aria-pressed',String(on));if(!on)closePop();}
 tg.addEventListener('click',function(){setMarks(!b.classList.contains('marks'));});
 var notes={};$$('#v4 .notes li').forEach(function(li){notes[li.dataset.n]=li;});
