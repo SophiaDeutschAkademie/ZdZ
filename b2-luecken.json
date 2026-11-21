@@ -41,14 +41,14 @@
  {
   "unit": "01",
   "gap": 4,
-  "cat": "A8",
-  "item": "schon (Fokuspartikel: „bereits eine Erschütterung genügte“)",
-  "answer": "schon",
+  "cat": "A4",
+  "item": "sodass (Folge: Verbot → Produktion verlegt; vs. damit = Zweck)",
+  "answer": "sodass",
   "options": [
-   "kaum",
-   "schon",
-   "erst",
-   "allenfalls"
+   "damit",
+   "sodass",
+   "obwohl",
+   "indem"
   ]
  },
  {
@@ -93,19 +93,6 @@
  {
   "unit": "01",
   "gap": 8,
-  "cat": "B10",
-  "item": "fochten … an (Präteritum von anfechten: focht – gefochten)",
-  "answer": "fochten",
-  "options": [
-   "fechteten",
-   "föchten",
-   "fachten",
-   "fochten"
-  ]
- },
- {
-  "unit": "01",
-  "gap": 9,
   "cat": "A2",
   "item": "dennoch (trotz Anfechtung und fehlender Stiftung)",
   "answer": "dennoch",
@@ -114,6 +101,19 @@
    "folglich",
    "ohnehin",
    "zuvor"
+  ]
+ },
+ {
+  "unit": "01",
+  "gap": 9,
+  "cat": "B10",
+  "item": "gemischtes Verb ernennen: ernannt (wie nennen – nannte – genannt), Plusquamperfekt hatte … ernannt",
+  "answer": "ernannt",
+  "options": [
+   "ernennt",
+   "ernannte",
+   "ernennen",
+   "ernannt"
   ]
  },
  {
@@ -146,13 +146,13 @@
   "unit": "01",
   "gap": 12,
   "cat": "C1",
-  "item": "trotz + Gen. (aller Zweifel)",
+  "item": "trotz + Gen. (aller Zweifel; vs. angesichts/infolge/aufgrund)",
   "answer": "Trotz",
   "options": [
    "Angesichts",
    "Trotz",
    "Infolge",
-   "Mangels"
+   "Aufgrund"
   ]
  },
  {
@@ -190,7 +190,7 @@
   "options": [
    "anhand",
    "anstelle",
-   "mangels",
+   "trotz",
    "zugunsten"
   ]
  },
@@ -210,19 +210,6 @@
  {
   "unit": "02",
   "gap": 5,
-  "cat": "D6",
-  "item": "jemandem etwas einreden (Präfix ein-)",
-  "answer": "eingeredet",
-  "options": [
-   "ausgeredet",
-   "zugeredet",
-   "überredet",
-   "eingeredet"
-  ]
- },
- {
-  "unit": "02",
-  "gap": 6,
   "cat": "C3",
   "item": "nominalisiertes Adjektiv ohne Artikel, Dat. Pl.: von Angehörigen",
   "answer": "Angehörigen",
@@ -235,7 +222,7 @@
  },
  {
   "unit": "02",
-  "gap": 7,
+  "gap": 6,
   "cat": "A4",
   "item": "daraufhin (Folge: nach der Lektüre der Beschreibungen)",
   "answer": "daraufhin",
@@ -244,6 +231,19 @@
    "zuvor",
    "andernfalls",
    "ohnehin"
+  ]
+ },
+ {
+  "unit": "02",
+  "gap": 7,
+  "cat": "D1",
+  "item": "von etwas ist (keine) Rede (Funktionsverbgefüge mit sein)",
+  "answer": "Rede",
+  "options": [
+   "Sprache",
+   "Frage",
+   "Meinung",
+   "Rede"
   ]
  },
  {
@@ -301,13 +301,13 @@
  {
   "unit": "02",
   "gap": 12,
-  "cat": "A2",
-  "item": "trotzdem (Einschränkung nach positivem Befund)",
-  "answer": "trotzdem",
+  "cat": "A8",
+  "item": "jedenfalls (= auf jeden Fall, zusammenfassende Einschätzung)",
+  "answer": "jedenfalls",
   "options": [
    "nämlich",
    "vielmehr",
-   "trotzdem",
+   "jedenfalls",
    "stattdessen"
   ]
  },
@@ -328,7 +328,7 @@
   "unit": "03",
   "gap": 2,
   "cat": "A6",
-  "item": "bereits (Gleichzeitigkeit: schon beim Sprechen)",
+  "item": "bereits (Gleichzeitigkeit: schon beim Sprechen den nächsten Satz verfolgen)",
   "answer": "bereits",
   "options": [
    "erst",
@@ -340,14 +340,14 @@
  {
   "unit": "03",
   "gap": 3,
-  "cat": "A8",
-  "item": "durchaus (bekräftigende Antwort: „ja, sehr wohl“)",
-  "answer": "durchaus",
+  "cat": "A3",
+  "item": "während (adversativ: französischer Redner – deutscher Politiker)",
+  "answer": "Während",
   "options": [
-   "durchaus",
-   "weniger",
-   "keineswegs",
-   "allenfalls"
+   "Während",
+   "Nachdem",
+   "Sobald",
+   "Falls"
   ]
  },
  {
@@ -379,19 +379,6 @@
  {
   "unit": "03",
   "gap": 6,
-  "cat": "A4",
-  "item": "deshalb (Folgerung aus dem Vorsatz)",
-  "answer": "deshalb",
-  "options": [
-   "andernfalls",
-   "stattdessen",
-   "vielmehr",
-   "deshalb"
-  ]
- },
- {
-  "unit": "03",
-  "gap": 7,
   "cat": "D1",
   "item": "ins Schwitzen geraten",
   "answer": "geraten",
@@ -404,7 +391,7 @@
  },
  {
   "unit": "03",
-  "gap": 8,
+  "gap": 7,
   "cat": "C2",
   "item": "Adjektivendung im erweiterten Partizipialattribut: aus den … genannten (Dat. Pl.)",
   "answer": "genannten",
@@ -417,15 +404,28 @@
  },
  {
   "unit": "03",
-  "gap": 9,
+  "gap": 8,
   "cat": "B7",
   "item": "Futur II als Vermutung über Vergangenes (werden … bemerkt haben)",
   "answer": "werden",
   "options": [
    "werden",
-   "sollen",
+   "möchten",
    "wollen",
    "dürfen"
+  ]
+ },
+ {
+  "unit": "03",
+  "gap": 9,
+  "cat": "A2",
+  "item": "zwar … aber (konzessiv, über zwei Sätze: Software bei Routinetexten – Verhandlung)",
+  "answer": "zwar",
+  "options": [
+   "hingegen",
+   "andernfalls",
+   "stattdessen",
+   "zwar"
   ]
  },
  {
@@ -436,7 +436,7 @@
   "answer": "als",
   "options": [
    "wie",
-   "sondern",
+   "oder",
    "als",
    "statt"
   ]
@@ -445,13 +445,13 @@
   "unit": "03",
   "gap": 11,
   "cat": "B12",
-  "item": "Partizip II als Attribut (passivisch): ein höflich verpacktes Nein",
-  "answer": "verpacktes",
+  "item": "Partizip II als Attribut (passivisch): ein höflich formuliertes Nein",
+  "answer": "formuliertes",
   "options": [
-   "verpackendes",
-   "zu verpackendes",
-   "verpackte",
-   "verpacktes"
+   "formulierte",
+   "formuliertes",
+   "formulierendes",
+   "formulierten"
   ]
  },
  {
@@ -470,14 +470,14 @@
  {
   "unit": "04",
   "gap": 1,
-  "cat": "A6",
-  "item": "schließlich (letzter Schritt einer Abfolge)",
-  "answer": "schließlich",
+  "cat": "D5",
+  "item": "eine Entdeckung machen (Nomen-Verb-Kollokation)",
+  "answer": "gemacht",
   "options": [
-   "schließlich",
-   "zunächst",
-   "zuvor",
-   "bislang"
+   "gemacht",
+   "getroffen",
+   "geleistet",
+   "genommen"
   ]
  },
  {
@@ -509,27 +509,27 @@
  {
   "unit": "04",
   "gap": 4,
-  "cat": "A8",
-  "item": "geschweige denn (nach negativer Aussage)",
-  "answer": "geschweige denn",
+  "cat": "A1",
+  "item": "schließlich (begründend, Mittelfeld: = ja, nämlich)",
+  "answer": "schließlich",
   "options": [
-   "ja sogar",
-   "zumindest",
-   "allenfalls",
-   "geschweige denn"
+   "trotzdem",
+   "jedoch",
+   "sonst",
+   "schließlich"
   ]
  },
  {
   "unit": "04",
   "gap": 5,
-  "cat": "D4",
-  "item": "scheinbar (nur dem Schein nach) vs. anscheinend",
-  "answer": "scheinbar",
+  "cat": "D6",
+  "item": "unverzichtbar (un- + verzicht + -bar: unentbehrlich) vs. verzichtbar / unverbindlich / unverständlich",
+  "answer": "unverzichtbar",
   "options": [
-   "anscheinend",
-   "tatsächlich",
-   "scheinbar",
-   "offensichtlich"
+   "verzichtbar",
+   "unverbindlich",
+   "unverzichtbar",
+   "unverständlich"
   ]
  },
  {
@@ -548,19 +548,6 @@
  {
   "unit": "04",
   "gap": 7,
-  "cat": "A1",
-  "item": "nämlich (nachgeschobene Begründung/Erläuterung)",
-  "answer": "nämlich",
-  "options": [
-   "folglich",
-   "ohnehin",
-   "vielmehr",
-   "nämlich"
-  ]
- },
- {
-  "unit": "04",
-  "gap": 8,
   "cat": "B11",
   "item": "Ersatzinfinitiv im Nebensatz: hätte + Infinitiv + Modalverb-Infinitiv",
   "answer": "hätte starren können",
@@ -569,6 +556,19 @@
    "hätte starren können",
    "starren gekonnt hätte",
    "hätte starren gekonnt"
+  ]
+ },
+ {
+  "unit": "04",
+  "gap": 8,
+  "cat": "A3",
+  "item": "stattdessen (Ersatz: statt sich zu bedanken, beschwert)",
+  "answer": "Stattdessen",
+  "options": [
+   "Stattdessen",
+   "Folglich",
+   "Außerdem",
+   "Ebenfalls"
   ]
  },
  {
@@ -600,40 +600,40 @@
  {
   "unit": "04",
   "gap": 11,
-  "cat": "A2",
-  "item": "wenngleich (konzessiv)",
-  "answer": "wenngleich",
+  "cat": "D4",
+  "item": "ausdrücklich (sich etwas ausdrücklich erlauben) vs. ausführlich / ausschließlich / auswendig",
+  "answer": "ausdrücklich",
   "options": [
-   "wenngleich",
-   "zumal",
-   "sofern",
-   "sodass"
+   "ausführlich",
+   "ausschließlich",
+   "auswendig",
+   "ausdrücklich"
   ]
  },
  {
   "unit": "04",
   "gap": 12,
-  "cat": "D2",
-  "item": "sich sehnen nach → wonach",
-  "answer": "wonach",
+  "cat": "A8",
+  "item": "nicht einmal (Steigerung einer Verneinung: niemand … – nicht einmal)",
+  "answer": "nicht einmal",
   "options": [
-   "worauf",
-   "wofür",
-   "wonach",
-   "woran"
+   "nicht nur",
+   "nicht mehr",
+   "nicht einmal",
+   "nicht etwa"
   ]
  },
  {
   "unit": "05",
   "gap": 1,
   "cat": "C1",
-  "item": "außer + Dat. (Ausnahme: außer ihr)",
-  "answer": "Außer",
+  "item": "infolge + Gen. (Ursache: infolge eines Schadens an der Oberleitung)",
+  "answer": "infolge",
   "options": [
-   "Bis auf",
-   "Außer",
-   "Ohne",
-   "Statt"
+   "trotz",
+   "infolge",
+   "anstelle",
+   "innerhalb"
   ]
  },
  {
@@ -644,139 +644,139 @@
   "answer": "es",
   "options": [
    "es",
-   "darauf",
+   "daran",
    "dazu",
-   "darin"
+   "darauf"
   ]
  },
  {
   "unit": "05",
   "gap": 3,
+  "cat": "C1",
+  "item": "angesichts + Gen. (angesichts der Kälte = in Anbetracht)",
+  "answer": "angesichts",
+  "options": [
+   "trotz",
+   "anstelle",
+   "angesichts",
+   "mithilfe"
+  ]
+ },
+ {
+  "unit": "05",
+  "gap": 4,
   "cat": "A8",
   "item": "ohnehin (= sowieso: Name kennt ohnehin kaum jemand)",
   "answer": "ohnehin",
   "options": [
    "trotzdem",
    "folglich",
-   "ohnehin",
-   "stattdessen"
-  ]
- },
- {
-  "unit": "05",
-  "gap": 4,
-  "cat": "A3",
-  "item": "andererseits (Gegenargument zur eigenen Frage)",
-  "answer": "Andererseits",
-  "options": [
-   "Folglich",
-   "Zuvor",
-   "Allenfalls",
-   "Andererseits"
+   "stattdessen",
+   "ohnehin"
   ]
  },
  {
   "unit": "05",
   "gap": 5,
+  "cat": "A3",
+  "item": "andererseits (Gegenargument zur eigenen Frage)",
+  "answer": "Andererseits",
+  "options": [
+   "Andererseits",
+   "Folglich",
+   "Zuvor",
+   "Stattdessen"
+  ]
+ },
+ {
+  "unit": "05",
+  "gap": 6,
   "cat": "D1",
   "item": "sich Mühe geben (mit jemandem)",
   "answer": "gegeben",
   "options": [
-   "gegeben",
    "genommen",
+   "gegeben",
    "gehalten",
    "gelegt"
   ]
  },
  {
   "unit": "05",
-  "gap": 6,
+  "gap": 7,
   "cat": "D7",
   "item": "mit etwas (nichts) anfangen können → damit",
   "answer": "damit",
   "options": [
    "daran",
    "davon",
-   "damit",
-   "dafür"
-  ]
- },
- {
-  "unit": "05",
-  "gap": 7,
-  "cat": "A4",
-  "item": "zu + Adj. …, als dass (verneinte Folge)",
-  "answer": "als dass",
-  "options": [
-   "sodass",
-   "als dass",
-   "damit",
-   "ohne dass"
+   "dafür",
+   "damit"
   ]
  },
  {
   "unit": "05",
   "gap": 8,
-  "cat": "C7",
-  "item": "es bedarf + Gen. (bedurfte einer gewissen Übermüdung)",
-  "answer": "bedurfte",
+  "cat": "A1",
+  "item": "nämlich (nachgeschobene Begründung: Zufall – Fensterläden gab es überall)",
+  "answer": "nämlich",
   "options": [
-   "brauchte",
-   "benötigte",
-   "erforderte",
-   "bedurfte"
+   "dennoch",
+   "folglich",
+   "nämlich",
+   "stattdessen"
   ]
  },
  {
   "unit": "05",
   "gap": 9,
-  "cat": "B3",
-  "item": "Konj. II Plusquamperfekt im irrealen Wunschsatz mit sein: zurückgefahren wäre",
-  "answer": "wäre",
+  "cat": "D2",
+  "item": "etwas in etwas sehen → darin (mehr als einen Zufall darin sehen)",
+  "answer": "darin",
   "options": [
-   "hätte",
-   "sei",
-   "wäre",
-   "war"
+   "dafür",
+   "darin",
+   "darauf",
+   "davon"
   ]
  },
  {
   "unit": "05",
   "gap": 10,
-  "cat": "D3",
-  "item": "um etwas verlegen sein",
-  "answer": "um",
+  "cat": "B3",
+  "item": "Konj. II Plusquamperfekt im irrealen Wunschsatz mit sein: zurückgefahren wäre",
+  "answer": "wäre",
   "options": [
-   "um",
-   "für",
-   "auf",
-   "an"
+   "wäre",
+   "hätte",
+   "sei",
+   "war"
   ]
  },
  {
   "unit": "05",
   "gap": 11,
-  "cat": "A6",
-  "item": "ehe (= bevor: ehe Clara etwas erwidern konnte)",
-  "answer": "Ehe",
-  "options": [
-   "Nachdem",
-   "Seitdem",
-   "Solange",
-   "Ehe"
-  ]
- },
- {
-  "unit": "05",
-  "gap": 12,
   "cat": "B6",
   "item": "Zustandspassiv waren … eingeritzt (vs. Vorgangspassiv wurden)",
   "answer": "waren",
   "options": [
    "wurden",
-   "waren",
    "hatten",
-   "würden"
+   "würden",
+   "waren"
+  ]
+ },
+ {
+  "unit": "05",
+  "gap": 12,
+  "cat": "A5",
+  "item": "falls (offene Bedingung: falls das Klavier dann noch im Haus stand)",
+  "answer": "falls",
+  "options": [
+   "obwohl",
+   "sobald",
+   "falls",
+   "damit"
   ]
  },
  {
@@ -795,27 +795,27 @@
  {
   "unit": "06",
   "gap": 2,
-  "cat": "D6",
-  "item": "Suffix -los: kostenlos (vs. kostenpflichtig, kostspielig)",
-  "answer": "kostenlos",
+  "cat": "D5",
+  "item": "einen Blick werfen (in + Akk.)",
+  "answer": "geworfen",
   "options": [
-   "kostspielig",
-   "kostenlos",
-   "kostenpflichtig",
-   "kostendeckend"
+   "geworfen",
+   "gemacht",
+   "gegeben",
+   "gelegt"
   ]
  },
  {
   "unit": "06",
   "gap": 3,
-  "cat": "E5",
-  "item": "Mittelfeld: Pronomen vor Nomen (er es den Händlern)",
-  "answer": "er es den Händlern",
+  "cat": "A2",
+  "item": "jedoch (Gegensatz: schimpft – hat trotzdem Verständnis)",
+  "answer": "jedoch",
   "options": [
-   "er es den Händlern",
-   "er den Händlern es",
-   "es er den Händlern",
-   "es den Händlern er"
+   "deshalb",
+   "jedoch",
+   "nämlich",
+   "ebenfalls"
   ]
  },
  {
@@ -847,27 +847,27 @@
  {
   "unit": "06",
   "gap": 6,
-  "cat": "D7",
-  "item": "den Geist aufgeben (Gerät: kaputtgehen)",
-  "answer": "Geist",
+  "cat": "D2",
+  "item": "hinter etwas (Dat.) stecken (= Ursache sein)",
+  "answer": "Hinter",
   "options": [
-   "Geist",
-   "Löffel",
-   "Faden",
-   "Kopf"
+   "Hinter",
+   "Aus",
+   "Vor",
+   "Über"
   ]
  },
  {
   "unit": "06",
   "gap": 7,
   "cat": "C1",
-  "item": "mangels + Gen. (mangels bezahlbarer Ersatzteile)",
-  "answer": "Mangels",
+  "item": "aufgrund + Gen. (aufgrund fehlender … Ersatzteile)",
+  "answer": "Aufgrund",
   "options": [
-   "Infolge",
-   "Zwecks",
-   "Dank",
-   "Mangels"
+   "Trotz",
+   "Mithilfe",
+   "Aufgrund",
+   "Anstelle"
   ]
  },
  {
@@ -891,9 +891,9 @@
   "answer": "sofern",
   "options": [
    "sofern",
-   "zumal",
+   "obwohl",
    "sodass",
-   "obgleich"
+   "seitdem"
   ]
  },
  {
@@ -904,35 +904,35 @@
   "answer": "innerhalb",
   "options": [
    "außerhalb",
-   "anlässlich",
-   "innerhalb",
-   "mangels"
+   "anhand",
+   "infolge",
+   "innerhalb"
   ]
  },
  {
   "unit": "06",
   "gap": 11,
-  "cat": "A6",
-  "item": "bislang (= bis jetzt)",
-  "answer": "bislang",
+  "cat": "E5",
+  "item": "nicht-Stellung: Satznegation vor Präpositionalergänzung/Pronominaladverb (bislang nicht darunter)",
+  "answer": "bislang nicht darunter",
   "options": [
-   "fortan",
-   "bislang",
-   "zuvor",
-   "damals"
+   "nicht bislang darunter",
+   "bislang nicht darunter",
+   "nicht darunter bislang",
+   "darunter nicht bislang"
   ]
  },
  {
   "unit": "06",
   "gap": 12,
   "cat": "D1",
-  "item": "Abhilfe schaffen",
-  "answer": "schafft",
+  "item": "jemanden unter Druck setzen",
+  "answer": "setzt",
   "options": [
-   "trifft",
    "stellt",
+   "legt",
    "nimmt",
-   "schafft"
+   "setzt"
   ]
  },
  {
@@ -1017,52 +1017,52 @@
   "unit": "07",
   "gap": 7,
   "cat": "C1",
-  "item": "zugunsten + Gen. (zugunsten dieser Grundschrift)",
+  "item": "zugunsten + Gen. (zugunsten dieser Grundschrift; vs. anstelle/zulasten)",
   "answer": "zugunsten",
   "options": [
-   "zuungunsten",
-   "ungeachtet",
-   "mangels",
+   "anstelle",
+   "trotz",
+   "zulasten",
    "zugunsten"
   ]
  },
  {
   "unit": "07",
   "gap": 8,
-  "cat": "D1",
-  "item": "zu bedenken geben",
-  "answer": "geben",
+  "cat": "B1",
+  "item": "Konj. I 3. Pl. seien (indirekte Rede ohne dass nach warnen; Kongruenz mit dem entfernten Subjekt Kinder)",
+  "answer": "seien",
   "options": [
-   "bringen",
-   "geben",
-   "stellen",
-   "ziehen"
+   "sei",
+   "seien",
+   "seid",
+   "wäre"
   ]
  },
  {
   "unit": "07",
   "gap": 9,
-  "cat": "C1",
-  "item": "hinsichtlich + Gen. (hinsichtlich der Ziele)",
-  "answer": "Hinsichtlich",
+  "cat": "D7",
+  "item": "was … betrifft (Themenangabe: Was die Ziele betrifft)",
+  "answer": "betrifft",
   "options": [
-   "Ungeachtet",
-   "Hinsichtlich",
-   "Anstelle",
-   "Mangels"
+   "bedeutet",
+   "bewirkt",
+   "beträgt",
+   "betrifft"
   ]
  },
  {
   "unit": "07",
   "gap": 10,
-  "cat": "B13",
-  "item": "zu + Partizip I als Attribut (die zu vermittelnden Fähigkeiten)",
-  "answer": "zu vermittelnden",
+  "cat": "C1",
+  "item": "außerhalb + Gen. (außerhalb der Schule; vs. aufgrund/anstelle)",
+  "answer": "außerhalb",
   "options": [
-   "vermittelnden",
-   "zu vernachlässigenden",
-   "zu verlernenden",
-   "zu vermittelnden"
+   "anstelle",
+   "außerhalb",
+   "anhand",
+   "aufgrund"
   ]
  },
  {
@@ -1088,7 +1088,7 @@
    "vertragen",
    "verteilen",
    "vertreten",
-   "vertagen"
+   "vertreiben"
   ]
  },
  {
@@ -1112,7 +1112,7 @@
   "answer": "sobald",
   "options": [
    "solange",
-   "ehe",
+   "bevor",
    "sobald",
    "bis"
   ]
@@ -1120,32 +1120,6 @@
  {
   "unit": "08",
   "gap": 3,
-  "cat": "A8",
-  "item": "erst (Zeitpunkt später als erwartet; Kontrast zu „dagegen schon“)",
-  "answer": "erst",
-  "options": [
-   "schon",
-   "bereits",
-   "längst",
-   "erst"
-  ]
- },
- {
-  "unit": "08",
-  "gap": 4,
-  "cat": "C1",
-  "item": "binnen + Gen. (binnen weniger Stunden)",
-  "answer": "binnen",
-  "options": [
-   "infolge",
-   "binnen",
-   "anlässlich",
-   "mangels"
-  ]
- },
- {
-  "unit": "08",
-  "gap": 5,
   "cat": "E3",
   "item": "um … zu (Zweck, gleiches Subjekt; nicht damit)",
   "answer": "Um",
@@ -1158,7 +1132,20 @@
  },
  {
   "unit": "08",
-  "gap": 6,
+  "gap": 4,
+  "cat": "C1",
+  "item": "anstelle + Gen. (anstelle der Bahnzeit; vs. wegen)",
+  "answer": "anstelle",
+  "options": [
+   "wegen",
+   "mithilfe",
+   "anhand",
+   "anstelle"
+  ]
+ },
+ {
+  "unit": "08",
+  "gap": 5,
   "cat": "A3",
   "item": "anders als (Kontrast Großbritannien – Deutschland)",
   "answer": "Anders als",
@@ -1171,20 +1158,20 @@
  },
  {
   "unit": "08",
-  "gap": 7,
+  "gap": 6,
   "cat": "A7",
-  "item": "kurzerhand (Art und Weise: ohne langes Zögern)",
-  "answer": "kurzerhand",
+  "item": "ohne dass (fehlender Umstand: kein Gesetz verpflichtete sie)",
+  "answer": "ohne dass",
   "options": [
-   "kurzerhand",
-   "allmählich",
-   "vergeblich",
-   "beinahe"
+   "indem",
+   "weil",
+   "ohne dass",
+   "sodass"
   ]
  },
  {
   "unit": "08",
-  "gap": 8,
+  "gap": 7,
   "cat": "A2",
   "item": "zwar … doch (konzessiv)",
   "answer": "doch",
@@ -1197,20 +1184,20 @@
  },
  {
   "unit": "08",
-  "gap": 9,
+  "gap": 8,
   "cat": "D3",
-  "item": "der Ruf nach + Dat.",
+  "item": "die Forderung nach + Dat.",
   "answer": "nach",
   "options": [
    "auf",
    "nach",
-   "für",
-   "um"
+   "zu",
+   "von"
   ]
  },
  {
   "unit": "08",
-  "gap": 10,
+  "gap": 9,
   "cat": "B2",
   "item": "Konj. II könnten als Ersatz für Konj. I (sie können = Indikativ)",
   "answer": "könnten",
@@ -1223,7 +1210,7 @@
  },
  {
   "unit": "08",
-  "gap": 11,
+  "gap": 10,
   "cat": "D1",
   "item": "in Kraft treten",
   "answer": "trat",
@@ -1236,15 +1223,28 @@
  },
  {
   "unit": "08",
-  "gap": 12,
-  "cat": "A4",
-  "item": "also (Schlussfolgerung)",
-  "answer": "also",
+  "gap": 11,
+  "cat": "C1",
+  "item": "dank + Gen. (positive Ursache: dank der neuen Zeit; vs. trotz)",
+  "answer": "Dank",
   "options": [
-   "hingegen",
-   "zuvor",
-   "stattdessen",
-   "also"
+   "Trotz",
+   "Dank",
+   "Statt",
+   "Während"
+  ]
+ },
+ {
+  "unit": "08",
+  "gap": 12,
+  "cat": "A8",
+  "item": "lediglich (einzige Ausnahme nach „nichts Grundsätzliches geändert“)",
+  "answer": "lediglich",
+  "options": [
+   "lediglich",
+   "sogar",
+   "vor allem",
+   "besonders"
   ]
  }
 ]
